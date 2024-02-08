@@ -13,7 +13,19 @@ Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix s
 7. `pause`: Pause operation of the shell until 'Enter' is pressed.
 8. `quit`: Quit the shell.
 
+# Installation
+To install `myshell`, follow these steps:
+1. Clone the repository to your local machine.
+2. Navigate to the directory containing the source code.
+3. Compile the source code using the provided Makefile.
+4. Run the compiled executable file.
 
+## Usage
+### Running `myshell`
+To start using `myshell`, follow these steps:
+1. Open a terminal window.
+2. Navigate to the directory containing the compiled `myshell` executable.
+3. Run the `myshell` executable.
 
 - Jumaana Aslam - 100778027
 - Hasan Khan - 100820450
