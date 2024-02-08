@@ -10,6 +10,8 @@
 #include <string.h>
 #include <unistd.h>
 
+// all the functions from utility.c
+
 void change_directory(char *path);
 void clr();
 void list_directory(char *path);
