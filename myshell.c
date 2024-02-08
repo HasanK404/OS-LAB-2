@@ -8,6 +8,7 @@ void execute_command(char *input) {
     char *delim = " \n";
     token = strtok(input, delim);
 
+    // Parse the input command into arguments
     while (token != NULL && i < 1023) {
         args[i++] = token;
         token = strtok(NULL, delim);
