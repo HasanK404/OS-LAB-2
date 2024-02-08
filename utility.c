@@ -39,7 +39,9 @@ void list_directory(char *path) {
 }
 
 void display_environment() {
+     // Access the external environment variable
     extern char **environ;
+    // Iterate through the environment variables and print each one
     for (char **env = environ; *env != NULL; env++) {
         printf("%s\n", *env);
     }
