@@ -13,7 +13,7 @@ Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix s
 7. `pause`: Pause operation of the shell until 'Enter' is pressed.
 8. `quit`: Quit the shell.
 
-# Installation
+# Installation & Usage
 To install `myshell`, follow these steps:
 1. Clone the repository to your local machine.
    ```bash
@@ -28,12 +28,11 @@ To install `myshell`, follow these steps:
    ```bash
    ./myshell
 
-## Usage
-### Running `myshell`
-To start using `myshell`, follow these steps:
-1. Open a terminal window.
-2. Navigate to the directory containing the compiled `myshell` executable.
-3. Run the `myshell` executable.
+## I/O Redirection
+`myshell` supports I/O redirection using the following symbols:
+- `<`: Redirects input from a file.
+- `>`: Redirects output to a file.
+- `>>`: Appends output to a file.
 
 - Jumaana Aslam - 100778027
 - Hasan Khan - 100820450
