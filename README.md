@@ -20,9 +20,13 @@ To install `myshell`, follow these steps:
    git clone OS-LAB-2
 3. Navigate to the directory containing the source code.
    ```bash
-   cd myShell
+   cd myshell
 5. Compile the source code using the provided Makefile.
-6. Run the compiled executable file.
+    ```bash
+   make
+7. Run the compiled executable file.
+   ```bash
+   ./myshell
 
 ## Usage
 ### Running `myshell`
