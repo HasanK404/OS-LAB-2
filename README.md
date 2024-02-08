@@ -16,7 +16,7 @@ Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix s
 # Installation
 To install `myshell`, follow these steps:
 1. Clone the repository to your local machine.
-   `git clone OS-LAB-2`
+   ```git clone OS-LAB-2```
 3. Navigate to the directory containing the source code.
 4. Compile the source code using the provided Makefile.
 5. Run the compiled executable file.
