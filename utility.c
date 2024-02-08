@@ -5,6 +5,7 @@
 #include <unistd.h>
 
 void change_directory(char *path) {
+    // Check if no path is provided
     if (path == NULL) {
         char cwd[1024];
         if (getcwd(cwd, sizeof(cwd)) != NULL) {
