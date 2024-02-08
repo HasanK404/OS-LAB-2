@@ -1,3 +1,7 @@
+// OS-Lab-2
+// Jumaana Aslam - 10778027
+// Hasan Khan - 100820450
+// Somya Babar - 100851536
 #ifndef MYSHELL_H
 #define MYSHELL_H
 
