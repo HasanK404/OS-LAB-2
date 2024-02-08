@@ -9,6 +9,7 @@ void change_directory(char *path) {
     if (path == NULL) {
         char cwd[1024];
         if (getcwd(cwd, sizeof(cwd)) != NULL) {
+            // Get the current working directory
             printf("%s\n", cwd);
         } else {
             perror("getcwd() error");
