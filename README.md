@@ -26,6 +26,21 @@ Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix s
 3. `echo`: is used to print a message.
 4. `date`: prints the current date and time.
 
+`myshell` able to take its command line input from a file.
+  
+  Try these to test out:
+- create a simple batch file named batchfile with a few commands. You can modify it or add more commands as needed. Open a text editor and create a file named batchfile. Add the following commands to the file:
+  
+  1. `echo This is a batch file`
+  2. `ls`
+  3. `pwd`
+     
+- Save the file. Now, you can run your shell in batch mode using the following command:
+
+   `./myshell batchfile`
+
+
+
 # Installation & Usage
 To install `myshell`, follow these steps:
 1. Clone the repository to your local machine.
