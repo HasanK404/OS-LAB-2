@@ -1,5 +1,8 @@
 #include "myshell.h"
-
+// OS-Lab-2
+// Jumaana Aslam - 10778027
+// Hasan Khan - 100820450
+// Somya Babar - 100851536
 void execute_command(char *input) {
     char *token;
     char *args[1024]; // Array to hold command and its arguments
