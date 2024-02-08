@@ -8,14 +8,17 @@ void change_directory(char *path) {
     // Check if no path is provided
     if (path == NULL) {
         char cwd[1024];
+        // Get the current working directory
         if (getcwd(cwd, sizeof(cwd)) != NULL) {
-            // Get the current working directory
+            // Print the current working directory
             printf("%s\n", cwd);
         } else {
             perror("getcwd() error");
         }
     } else {
+        // Change directory to the specified path
         if (chdir(path) != 0) {
+            // Print error if unable to change directory
             perror("myshell");
         }
     }
