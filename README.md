@@ -34,6 +34,9 @@ To install `myshell`, follow these steps:
 - `>`: Redirects output to a file.
 - `>>`: Appends output to a file.
 
+## Exiting `myshell`
+To exit `myshell`, simply type the `quit` command or press `Ctrl + D`.
+
 - Jumaana Aslam - 100778027
 - Hasan Khan - 100820450
 - Somya Babar - 100851536
