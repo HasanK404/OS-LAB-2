@@ -1,4 +1,4 @@
-# LAB 2
+# LAB 2 - GRP - 13
 ## Introduction
 Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix shell functionality. This README serves as a guide for users to understand how to operate `myshell` effectively.
 
