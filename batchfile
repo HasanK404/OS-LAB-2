@@ -1,0 +1,4 @@
+echo This is a batch file
+ls
+pwd
+
