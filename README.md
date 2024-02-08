@@ -12,6 +12,17 @@ Welcome to `myshell`, a simple command-line interpreter that mimics basic Unix s
 6. `help`: Display the user manual using the more filter.
 7. `pause`: Pause operation of the shell until 'Enter' is pressed.
 8. `quit`: Quit the shell.
+`myshell` supports external command as well using the fork and exec method by following these step :
+- If the command is recognized as an internal command, it is executed directly.
+- If it's not an internal command, the shell forks a child process.
+- In the child process, we set the parent environment variable using the setenv function.
+- The external command is then executed using execvp.
+- The parent process waits for the child process to finish using wait(NULL)
+  Try these to test out:
+1. `pwd`:  prints the current working directory.
+2. `ls`:  is a basic command that lists the contents of the current directory.
+3. `echo`: is used to print a message.
+4. `date`: prints the current date and time.
 
 # Installation & Usage
 To install `myshell`, follow these steps:
