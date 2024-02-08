@@ -29,12 +29,15 @@ void clr() {
 }
 
 void list_directory(char *path) {
+    // Check if no path is provided, set path to current directory
     if (path == NULL) {
         path = ".";
     }
 
+    // Create command to list directory contents
     char command[1024];
     sprintf(command, "ls -l %s", path);
+    // Execute the command using system call
     system(command);
 }
 
